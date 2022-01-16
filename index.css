@@ -1,0 +1,42 @@
+#clockContainer{
+    margin: auto;
+    border: 2px solid red;
+  
+    height: 40vw;
+    width: 40vw;
+    background: url(dial.jpg) no-repeat;
+    background-size: 100%;
+    background-color: rgb(40, 102, 156);
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background : black;
+    border-radius: 10px;
+}
+
+#hour{
+    transform-origin: bottom;
+    width: 0.7%;
+    height: 25%;
+    top: 17%;
+    left: 49.6%;
+    background: blue;
+}
+#minute{
+    transform-origin: bottom;
+    width: 0.7%;
+    height: 25%;
+    top: 17%;
+    left: 49.6%;
+    opacity: 0.8;
+    background: red;
+}
+#second{
+    transform-origin: bottom;
+    width: 0.7%;
+    height: 25%;
+    top: 17%;
+    left: 49.6%;
+    background: yellow;
+}
